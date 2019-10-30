@@ -33,6 +33,6 @@ sea_level_pressure 海平面压力，单位：毫巴/百帕斯卡
 wind_direction 风向，指南针方向(0-360)  
 wind_speed 风速，单位：米/秒  
   
-__sample_submission.csv__提交例子  
+__sample_submission.csv__ 
 row_id  
 meter_reading 仪表读数，保留小数点后四位  
