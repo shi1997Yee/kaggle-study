@@ -1,7 +1,8 @@
 ### 比赛说明  
   评估能效提高的价值可能是具有挑战性的，因为无法真正知道建筑物如果不进行改进将消耗多少能源。我们能做的最好的事情就是建立反事实模型。一旦对建筑物进行了大修，就将新的（较低的）能耗与原始建筑物的模型值进行比较，以计算出改造的节省量。更准确的模型可以支持更好的市场激励措施，并降低融资成本。  
   这项竞赛要求您根据历史使用率和观察到的天气，在四种能源类型之间建立这些反事实模型。该数据集包括来自全球多个不同地点的一千多座建筑物的三年小时计读数。  
-###数据表说明
+    
+### 数据表说明
   __building_metadata.csv__  
   site_id  weater_test.csv的外键  
   building_id  train.csv的外键  
@@ -36,12 +37,12 @@
   __sample_submission.csv__ 
   row_id  
   meter_reading 仪表读数，保留小数点后四位  
-###train数据  
-####时间 dates  
+### train数据  
+#### 时间 dates  
   Train: from 2016-01-01 00:00:00 to 2016-12-31 23:00:00  
   Test: from '2017-01-01 00:00:00' to '2018-05-09 07:00:00'  
   MONTHS : [ 1  2  3  4  5  6  7  8  9 10 11 12]  
-####缺失数据数 Missing data x Column    
+#### 缺失数据数 Missing data x Column    
   year_built 12113306  
   floor_count 16630052  
   air_temperature 6163  
@@ -51,7 +52,7 @@
   sea_level_pressure 1141174  
   wind_direction 1358553  
   wind_speed 53181  
-####Buildings and sites
+#### Buildings and sites
   We have 1449 buildings  
   We have 16 sites  
   More information about each site ...  
@@ -71,14 +72,14 @@
   Site  10 	observations:  411313 	Num of buildings:  30  
   Site  14 	observations:  2499502 	Num of buildings:  102  
   Site  15 	observations:  1743966 	Num of buildings:  124  
-####消耗量前五的建筑
+#### 消耗量前五的建筑
   建筑号   站点
   1099    13
   778     6
   1197    13
   1168    13
   1159    13
-####可能老的建筑消耗更多
+#### 可能老的建筑消耗更多
   Buildings built before 1900:  0  
   Buildings built before 2000:  528  
   Buildings built after 2010:  55  
