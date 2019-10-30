@@ -86,5 +86,6 @@
   Buildings built before 2000:  528  
   Buildings built after 2010:  55  
   Buildings built after 2015:  11  
-  
+#### 建筑物活动类别  
+![primary_use](https://github.com/shi1997Yee/kaggle-study/blob/master/ASHRAE/images/primary_use2.png)  
   
