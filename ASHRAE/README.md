@@ -38,8 +38,8 @@
     wind_direction 风向，指南针方向(0-360)  
     wind_speed 风速，单位：米/秒  
 
-  __sample_submission.csv__ 
-    row_id  
+  __sample_submission.csv__   
+    row_id    
     meter_reading 仪表读数，保留小数点后四位  
 ### train数据  
 #### 时间 dates  
